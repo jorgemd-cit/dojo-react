@@ -4,7 +4,7 @@ server:
 spring:
   data:
     mongodb:
-      host: mongodb
+      host: dojo-react_mongo_1
       port: 27017
       database: todos
       username: root
