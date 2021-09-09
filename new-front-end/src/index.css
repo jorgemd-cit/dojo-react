@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 60px;
+}
+
+.page {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 48px;
+}
+
+.todo-list {
+  margin: 40px 0;
+}
+
+.todo-item {
+  background-color: #e0e0e0;
+  padding: 16px;
+  border-radius: 6px;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.todo-item .checkbox {
+  margin-right: 8px;
+}
+
+.todo-item .button {
+  margin-left: auto;
+}
+
+.todo-item .todo-item-title {
+  margin: 0;
+}
+
+.todo-item--completed .todo-item-title {
+  text-decoration: line-through;
+}
+
+.checkbox,
+.button {
+  cursor: pointer;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #999999;
+  margin: 0;
+}
+
+.todo-input {
+  padding: 16px;
+  margin-bottom: 16px;
+  width: 100%;
+  display: block;
+  border-radius: 6px;
+  border: 1px solid #cccccc;
+  background-color: #ffffff;
+}
+
+.button {
+  padding: 16px 32px;
+  background-color: #444444;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 4px;
+  border: none;
+}
+
+.button--small {
+  padding: 6px 12px;
+  font-size: 12px;
+  font-weight: 400;
+}
